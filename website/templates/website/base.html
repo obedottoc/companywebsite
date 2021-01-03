@@ -3,24 +3,28 @@
 <html>
 
 <head>
-    <title>Layout II - B</title>
+    <title>Silicon Private Limited</title>
     <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    <link rel = "icon" href ="{% static 'img/titleicon.png' %}" type = "image/x-icon"> 
+              
 </head>
 
 <body>
     <div class="container">
     <div class="banner">
-        This is banner
+        Silicon Private Limited.
     </div>
     <div class="menu">
-        This is menu
-    </div>
-    <div class="content">
+        <div class="menuitem"><a href="/home">Home</a></div> 
+        <div class="menuitem"><a href="/products">Products</a></div> 
+        <div class="menuitem"><a>People</a></div>
+        <div class="menuitem"><a>Contact Us</a></div> 
+    </div><div class="content">
     {% block content %}    
     {% endblock  %}
     </div>
     <div class="footer">
-        This is footer
+        Copyright © 2020 Silicon Private Limited, Developed by Obed Otto.
     </div>
     </div>
 </body>

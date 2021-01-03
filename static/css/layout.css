@@ -1,59 +1,131 @@
 *{
       box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif
+      font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-color: whitesmoke;
+    color:  #17421D;
+}
 .container{
-    width: 750px;
+    width: 1080px;
     margin-left: auto;
     margin-right: auto;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    box-shadow: 15px 15px 8px gray;    
 }
 
 .banner{
     display: block;
     width: 100%;
     height: 250px;
-    background-color: aqua;
     text-align: center;
+    font-size: xx-large;
+    background-image : url("/static/img/chip1.jpg");
+    background-size:cover;
+    margin: 0px 0px 0px 0px;
+    padding-top: 150px;
+    color: #17421D;
 }
 
 .menu{
     display: block;
     width: 100%;
     height: 50px;
-    background-color: bisque;
+    font-size: larger;
+    background-color: #17421D;
     text-align: center;
+    padding-top: 15px;
+    margin: 0px 0px 0px 0px;
+    border-width: 1px;
+}
+
+.menuitem{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menuitem a{
+    text-decoration: none; 
+    color: whitesmoke;
 }
 
 .content{
     display: block;
     width: 100%;
-    background-color: brown;
+    background-color: white;
+    min-height: 500px;
+    margin: 0px 0px 0px 0px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+.homecontent{
+    min-height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+.homecontent h1{
+    text-align: left;    
+}
+.homecontent img{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.contenttext{
+    text-align: justify;
+}
+
+.productcontent{
+    min-height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1{
+    text-align: left;    
+}
+
+.productitems{
+    display: block;
+}
+
+.productitem{
+    display: inline-block;
+    width: 30%;
+    height: 250px;
     text-align: center;
+}
+
+.productitem img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.productitem .itemimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.productitem .itemname{
+    display: block;
+}
+.productitem .itemprice{
+    display: block;
 }
 
 .footer{
     display: block;
     width: 100%;
     height: 40px;
-    background-color: darkcyan;
+    background-color: #17421D;
     text-align: center;
-}
-
-.contentblock{
-    display: inline-block;
-    width: 30%;
-    height: 250px;
-}
-
-.color1{
-    background-color: blueviolet;
-}
-
-.color2{
-    background-color: burlywood;
-}
-
-.color3{
-    background-color: darkcyan;
+    padding-top: 10px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(218, 214, 214);
 }
