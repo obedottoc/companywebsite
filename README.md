@@ -1,5 +1,6 @@
 # Web Design for a Manufacturing Company
 ## AIM: 
+
 To design a static website for a chip manufacturing company.
 
 ## DESIGN STEPS:
@@ -18,7 +19,7 @@ Validate the HTML code.
 ### Step 6:
 Publish the website in the given URL.
 
-## PROGRAM:
+## PROGRAM :
 
 ### base.html
 ```
